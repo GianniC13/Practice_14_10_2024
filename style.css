@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container > button {
+    height: 50px;
+    width: 300px;
+    background-color: aqua;
+    color: brown;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.success {
+    color: green;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
